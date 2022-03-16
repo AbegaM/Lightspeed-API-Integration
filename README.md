@@ -35,9 +35,11 @@
 
 ### Environment variables description
 
-PORT: The port in which your server will run 
-LIGHTSPEED_CLIENT_ID: The client ID which is provided by Lightspeed 
-LIGHTSPEED_CLIENT_SECRET: The client secret value which is provided by Lightspeed
+  ```
+   PORT: The port in which your server will run 
+   LIGHTSPEED_CLIENT_ID: The client ID which is provided by Lightspeed 
+   LIGHTSPEED_CLIENT_SECRET: The client secret value which is provided by Lightspeed
+  ```
 
 
 ### Running the code 
