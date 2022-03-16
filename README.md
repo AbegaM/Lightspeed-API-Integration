@@ -59,10 +59,22 @@ LIGHTSPEED_CLIENT_SECRET: The client secret value which is provided by Lightspee
    ```
     http://localhost:8000/api/auth/signin/lightspeed
    ```
-4. You will be redirected to the lightspeed login page, login with your account and authorize the app to access the lightspeed account in behalf of you
+4. You will be redirected to the lightspeed login page, login with your account and click the authorize button
 
    ![authorize](./public/authorize-lightspeed.png)
 
+5. When you authorize the app, it will send a GET request to the Account API and it will show you your account information like this 
+   ```json
+    {
+      "accountID": "Cv20DD40",
+      "name": "Account Name",
+      "link": {
+        "@attributes": {
+          "href": "/API/Account/Cv20DD40"
+        }
+      }
+    }
+   ```
 
 ## Built with 
 
